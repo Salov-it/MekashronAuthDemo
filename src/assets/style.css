@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.login-card:hover {
+  transform: scale(1.01);
+}
+
+#result {
+  min-height: 30px;
+}
+
+.text-success {
+  color: #1aa63f !important;
+}
+
+.text-danger {
+  color: #d93025 !important;
+}
